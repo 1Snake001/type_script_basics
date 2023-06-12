@@ -13,4 +13,4 @@ exampleFn("test_value");
 
 // union type
 
-let unionVariable: string | number = 4;
+let unionVariable: string | number = 'test';
