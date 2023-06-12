@@ -47,3 +47,10 @@ let progress: Status;
 progress = "Started";
 progress = "In progress";
 progress = "Complited";
+
+// array
+
+let numbers:Array<number> = [];
+let numerArr:number[] = [];
+
+numbers.push(4);
