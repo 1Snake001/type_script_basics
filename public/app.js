@@ -33,3 +33,7 @@ progress = "Complited";
 let numbers = [];
 let numerArr = [];
 numbers.push(4);
+// tuple
+let person = ["Kiss József", 52];
+let firstPerson = ["Lakatos Géza", 43];
+let [personName, pesonAge] = firstPerson;

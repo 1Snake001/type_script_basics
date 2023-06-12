@@ -54,3 +54,14 @@ let numbers:Array<number> = [];
 let numerArr:number[] = [];
 
 numbers.push(4);
+
+// tuple
+let person: [string, number] = ["Kiss József", 52];
+
+// type Person = [string, number];
+type Person = [name: string, age: number];
+
+
+let firstPerson: Person = ["Lakatos Géza", 43];
+
+let [ personName, pesonAge] =  firstPerson;
