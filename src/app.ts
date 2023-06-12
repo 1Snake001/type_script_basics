@@ -10,3 +10,7 @@ return input.length;
 };
 
 exampleFn("test_value");
+
+// union type
+
+let unionVariable: string | number = 4;

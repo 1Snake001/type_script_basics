@@ -8,3 +8,5 @@ function exampleFn(input) {
 }
 ;
 exampleFn("test_value");
+// union type
+let unionVariable = 4;
