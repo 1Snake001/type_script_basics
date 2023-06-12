@@ -24,7 +24,6 @@ let literalNumber = 43;
 function literalFn(input) {
     return 1;
 }
-;
 let progress;
 progress = "Started";
 progress = "In progress";
@@ -37,3 +36,8 @@ numbers.push(4);
 let person = ["Kiss József", 52];
 let firstPerson = ["Lakatos Géza", 43];
 let [personName, pesonAge] = firstPerson;
+let album = {
+    userId: 1,
+    id: 1,
+    title: "step-by-step",
+};

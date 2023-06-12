@@ -36,11 +36,11 @@ type Numbers = 1 | 43 | 3.4 | 42;
 
 let literalNumber: Numbers = 43;
 
-function literalFn( input: Numbers ): Numbers {
-return 1;
-};
+function literalFn(input: Numbers): Numbers {
+  return 1;
+}
 
-type Status = "Started" | "In progress" | 'Complited';
+type Status = "Started" | "In progress" | "Complited";
 
 let progress: Status;
 
@@ -50,8 +50,8 @@ progress = "Complited";
 
 // array
 
-let numbers:Array<number> = [];
-let numerArr:number[] = [];
+let numbers: Array<number> = [];
+let numerArr: number[] = [];
 
 numbers.push(4);
 
@@ -61,7 +61,33 @@ let person: [string, number] = ["Kiss József", 52];
 // type Person = [string, number];
 type Person = [name: string, age: number];
 
-
 let firstPerson: Person = ["Lakatos Géza", 43];
 
-let [ personName, pesonAge] =  firstPerson;
+let [personName, pesonAge] = firstPerson;
+
+// Oject
+type Album = {
+  userId: number;
+  id: number;
+  title: string;
+  photos? :Array<Photo>;
+};
+
+interface Album2 {
+  userId: number;
+  id: number;
+  title: string;
+}
+
+interface Photo {
+  id: number;
+  title: string;
+  url: string;
+  thumbnailUrl: string;
+}
+
+let album: Album = {
+  userId: 1,
+  id: 1,
+  title: "step-by-step",
+};
